@@ -2,9 +2,8 @@
 
 The goal of this architectural overview is to give the reader an overall survey of what is
 contained within the MRTK. After reading through the architecture documentation, the reader should understand:
-documentation, the reader should understand:
 
--  the large pieces of MRTK and how they connect,
+- the large pieces of MRTK and how they connect,
 - the concepts that MRTK introduces that may not exist in vanilla Unity,
 - how some of the larger systems (such as Input) work.
 
@@ -31,7 +30,7 @@ mixed reality experiences.
 
 ## High level breakdown
 
-The MRTK is both a collection of tools for getting mixed reality (MR) experiences of
+The MRTK is both a collection of tools for getting mixed reality (MR) experiences off
 the ground quickly, and also an application framework with opinions on its own runtime,
 how it should be extended, and how it should be configured. 
 
