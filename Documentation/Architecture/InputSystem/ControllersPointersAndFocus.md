@@ -91,7 +91,7 @@ the screen will cast a ray from the camera to a potentially far location in the 
 
 [A pointer](xref:Microsoft.MixedReality.Toolkit.Input.PokePointer) that is used to interact with game objects
 that support “near interaction touchable.” GameObjects support "near interaction touchable" when they
-have attach the [NearInteractionTouchable](xref:Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable) script.
+have attached the [NearInteractionTouchable](xref:Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable) script.
 The PokePointer uses a SphereCast to determine the closest touchable (or in the case of interaction with
 UnityUI, enumerate through the list of NearInteractionTouchableUnityUIs). This type of pointer/NearInteractionTouchable combination is used to power things like the pressable buttons and the piano
 keys (in the hand interaction examples scene).
